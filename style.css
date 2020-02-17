@@ -9,7 +9,7 @@
   justify-content: flex-end;
   background-color: darkslategrey;
   position: fixed;
-  font-family: ;
+  font-family: none;
 }
 
 .nav-list {
