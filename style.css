@@ -85,6 +85,10 @@ h2 {
   color: #f1ead4;
   background-color: #0e4831;
 }
+div {
+    background-color: #dc4128; 
+    color: #dc4128; 
+}
 
 #project-list {
   display: flex;
@@ -110,7 +114,6 @@ figcaption {
   font: 1rem "Roboto", sans-serif;
   background-color: #7caf88;
   position: relative;
-  
   bottom: 20px;
   height: 40px;
   max-width: 200;
