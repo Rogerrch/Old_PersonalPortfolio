@@ -8,12 +8,15 @@
   color: #dc4128;
   background-color: #f1ead4;
   transition: backgrond-color, 0.4s;
+  
+  
 }
 
 /* Selects any <a> element when "hovered" */
 a:hover {
   color: #dc4128;
   transition: color, 0.4s;
+
 }
 
 #navbar {
@@ -96,6 +99,7 @@ div {
   justify-content: space-evenly;
   background-color: #0e4831;
 }
+
 
 .project-image {
   max-height: 350px;
