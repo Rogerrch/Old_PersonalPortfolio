@@ -5,9 +5,9 @@
 
 /* Selects any <a> element when "hovered" */
 #navbar a:hover {
-    color: #7caf88;
-    background-color: #5f0101;
-    transition: backgrond-color, .6s;
+    color: #dc4128;
+    background-color: #f1ead4;
+    transition: backgrond-color, .4s;
 
 }
    
@@ -22,7 +22,7 @@ a:hover {
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  background-color: #dc4128;
+  background-color: #0e4831;
   position: fixed;
   
 }
@@ -33,6 +33,7 @@ a:hover {
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
   font-weight: 400;
+  filter: drop-shadow(.5mm 1mm .6mm #745148);
 }
 
 .nav-list a {
