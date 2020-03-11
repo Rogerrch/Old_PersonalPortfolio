@@ -3,7 +3,7 @@ box-sizing: boorder-box;
 background-color: #dfdfdf;
 }
 
-a> img {
+a > img {
   height: 18rem;
   margin: 4px;
 }

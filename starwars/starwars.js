@@ -1,57 +1,41 @@
 import { films } from "../data/films.js";
 import { films } from "../data/people.js";
+import { films } from "../data/starships";
+import { films } from "../data/species";
 
-let greetingDiv = document.gallerySelector("gallery")
+console.log("Hi There! My first JavaScript code!")
 
-const maleCharcters = people.filter(person => person.gender === "male")
+console.log(document.querySelector('.greeting'))
 
-const femaleCharcters = people.filter(person => person.gender === "female")
+let greetingDiv = document.gallerySelector('.greeting')
 
-const mechCharcters = people.filter(person => person.gender === "n/a" || person.gender === "none")
+let castList = document.captureEvents("ul")
 
-const otherCharcters = people.filter(person => person.gender === "hermaphrodite"
-)
+//let counter = 1
 
-maleButton.addEventListener("click", function(event) {
-  populateDOM(maleCharacters);
+people.forEach(person => {
+let nameItem = document.createElement("li")
+nameItem.textContent = person.name
+castList.appendChild(nameItem)
+
+let personAnchor = document.createElement("a")
+personAnchor.href = "#"
+let personImg = document.createElement("img")
+personImg.scr = `https://starwars-visualguide.com/assets/img/characters/(${counter}.jpg)`
+
+personImg.addEventListener('error', (event) => {
+  personImg.hidden = true
+  //personImg.src = '../images/uvu.jpeg'
 })
 
-function getLastNumber(url) {
- let end = url.lastIndexOf('/')
- let start = end - 2
- if (url.carAt(start === '/')) 
- { start++
- 
- return url.slice(start, end)
-}
+personImg.addEventListener("click", function( event ) {
+  console.log('Thanks for clicking!')
+})
 
-function removeChildren(element) {
-while (element.firstChild) {
-  element.removeChild(element.firstChild);
-}
+personAnchor.appendChild(personImg)
+greetingDiv.appendChild(personAnchor)
+conter++
+})
 
-function populateDOM(charcters) {
-    removeChildren(gallery)
-    characters.forEach(person => {
-    let imgNum = person.url
-    let nameItem = document.createElement("li")
-    nameItem.textContent = person.name
-    castList.appendChild(nameItem)
+greetingDiv.appendChild(castList)
 
-    let personAnchor = document.createElement("a")
-    personAnchor.href = "#"
-    let personImg = document.createElement("img")
-    personImg.src = `http://starwars-visualguide.com/assets/img/characters/${imageNum}.jpg`
-
-    personImg.addEventListener("error", event => {
-      personImg.hidden = true
-      //personimage.src =
-    })
-
-    personImg.addEventListener("click", function(event) {})
-
-    personAnchor.appendChild(personImg)
-    greetingDiv.appendChild(personImg)
-    counter++
-  })
-}
