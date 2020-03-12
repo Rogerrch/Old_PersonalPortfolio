@@ -10,7 +10,7 @@ const femaleCharacters = people.filter(person => person.gender === 'female')
 const otherCharacters = people.filter(
   person =>
     person.gender === 'n/a' ||
-    person.gender === 'mech' ||
+    person.gender === 'none' ||
     person.gender === 'hermaphrodite',
 )
 
