@@ -1,12 +1,12 @@
 export function removeChildren(element) {
     while (element.firstChild) {
-        element.removeChildren(element.firstChild)
+        element.removeChild(element.firstChild)
     }
 }
 
 export function getLastNumber(url) {
     let end = url.lastIndexOf('/')
-    let start = end -2
+    let start = end - 2
     if (url.charAt(start) === '/') {
         start++
     }

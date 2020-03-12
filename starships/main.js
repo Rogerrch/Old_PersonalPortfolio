@@ -30,7 +30,7 @@ shipAnchor.addEventListener('click', event => {
   nav.appendChild(navList);
 }
 
-function populateShipViwe(shipData);
+function populateShipViwe(shipData) {
 removeChildren(shipView)
 let imageNum = getLastNumber(shipData.url)
 let shipImage = document.createElement('img')
