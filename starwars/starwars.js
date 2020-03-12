@@ -7,7 +7,7 @@ console.log(document.querySelector('.greeting'))
 
 let greetingDiv = document.querySelector('.greeting')
 
-greetingDiv.textContent = "Star Wars Cast"
+// greetingDiv.textContent = "Star Wars Cast"
 
 let castList = document.createElement("ul")
 
@@ -17,10 +17,24 @@ people.forEach((person) => {
   let nameItem = document.createElement("li")
   nameItem.textContent = person.name
   castList.appendChild(nameItem)
+
+  let personAnchor = document.createElement("a")
+  personAnchor.href ="#"
+  
   let personImg = document.createElement("img")
   personImg.src = `https://starwars-visualguide.com/assets/img/characters/${counter}.jpg`
+   
+  personImg.addEventListener('error', ( event ) => { 
+    personImg.hidden = true
+  //  personImg.src = '../images/sm/SithDeathMark_sm.jpg'
+   });
 
-  greetingDiv.appendChild(personImg)
+   personImg.addEventListener("click", function( event ) { 
+    console.log('tahnks for clicking')
+   })
+ 
+  personAnchor.appendChild(personImg)
+  greetingDiv.appendChild(personAnchor)
   counter++
 })
 
