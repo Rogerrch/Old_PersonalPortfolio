@@ -6,31 +6,60 @@ body {
     background-color: #101010; 
 }
 
-header, footer {
+
+header {
     display: flex;
     justify-content: center;
     background-color: #101010;
-    color: steelblue;
+    color: #285a9f;
+    
+    font-family: "Libre Franklin";
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #101010;
+    color: #285a9f;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+
 /* v error message v */
 .image img {
     border-radius: 10px;
     border: solid 6px;
+    margin-top: 12rem;
 }
 .card {
     border-radius: 10px;
     background-color: #101010;
-    color: steelblue;
+    color: #27a1e3;
 }
 /* ^ error message ^ */
 .container {
     display: flex;
+    justify-content: space-around;
     background-color: #101010;
 }
 
+img {
+    border-radius: 10px;
+    margin-top: 12rem;
+    border: solid 4px #285a9f;
+    
+}
+
 .nav {
-    border: solid 2px black;
-    padding-right: 2rem;
+    display: flex;
+    align-items: ;
+    border: solid 4px #285a9f;
+    padding: 10px 30px 10px 30px;
+    background-color: #e5e9f2;
+    border-radius: 10px;
+    font-family: "Libre Franklin";
+    font-weight: bold;
 }
 
 a {
@@ -40,4 +69,10 @@ a {
 
 li {
     list-style-type: none;
+    background-color: #e5e9f2; 
+    color: #285a9f;
+    font-variant: small-caps;
+    
 }
+
+
