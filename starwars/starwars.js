@@ -14,6 +14,7 @@ const otherCharacters = people.filter(
     person.gender === 'hermaphrodite',
 )
 
+
 let maleButton = document.querySelector('#maleButton')
 let femaleButton = document.querySelector('#femaleButton')
 let otherButton = document.querySelector('#otherButton')
