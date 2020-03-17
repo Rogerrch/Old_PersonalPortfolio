@@ -2,8 +2,30 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #101010; 
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    background-color: #101010;
+    color: steelblue;
+}
+/* v error message v */
+.image img {
+    border-radius: 10px;
+    border: solid 6px;
+}
+.card {
+    border-radius: 10px;
+    background-color: #101010;
+    color: steelblue;
+}
+/* ^ error message ^ */
 .container {
     display: flex;
+    background-color: #101010;
 }
 
 .nav {
