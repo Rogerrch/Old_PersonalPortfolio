@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #101010; 
-}
-
 
 header {
     display: flex;
@@ -25,6 +21,10 @@ footer {
     font-variant: small-caps;
 }
 
+body {
+    background-color: #101010;
+}
+
 
 /* v error message v */
 .image img {
@@ -38,9 +38,10 @@ footer {
     color: #27a1e3;
 }
 /* ^ error message ^ */
+
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #101010;
 }
 
@@ -48,12 +49,13 @@ img {
     border-radius: 10px;
     margin-top: 12rem;
     border: solid 4px #285a9f;
+    font-family: "Libre Franklin";
     
 }
 
 .nav {
     display: flex;
-    align-items: ;
+    align-self: flex-start;
     border: solid 4px #285a9f;
     padding: 10px 30px 10px 30px;
     background-color: #e5e9f2;

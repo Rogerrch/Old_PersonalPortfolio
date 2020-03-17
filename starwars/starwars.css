@@ -6,14 +6,16 @@ background-color: #dfdfdf;
 a > img {
   height: 18rem;
   margin: 4px;
+  border-radius: 5px 20px 20px 20px;
+  border: solid 4px #285a9f;
 }
 
 button {
   height: 3rem;
   border-radius: 10px;
   font-size: larger;
-  background-color: #b9f45a;
-  color: #a7d;
+  background-color: #e5e9f2;
+  color: #285a9f;
   font-weight: 600;
   
 }
