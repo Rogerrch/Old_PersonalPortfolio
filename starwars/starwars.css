@@ -3,9 +3,26 @@ box-sizing: border-box;
 background-color: #101010;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #101010;
+  color: #285a9f;
+  
+  font-family: "Libre Franklin";
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #101010;
+  color: #285a9f;
+  font-weight: bold;
+  font-variant: small-caps;
+}
 
 body {
-  background-color: black;
+  background-color: 101010;
 }
 
 
@@ -16,21 +33,22 @@ a> img {
   border: solid 4px #285a9f;
 }
 
-
-.nav {
+#nav {
   display: flex;
   justify-content: center;
 }
 
+
 button {
   height: 3rem;
   font-size: larger;
-  background-color: #7b8da5;
-  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+  background-color: #0d0f1b;
+  box-shadow: inset 0px 0px 10px #21233c;
   font-weight: 600;
-  padding-top: 8px;
-  margin-bottom: 2rem;
+  padding-top: 5px;
+  margin-bottom: 1rem;
   border: solid 2px #285a9f;
+  color: #285a9f;
 }
 
 #maleButton {
@@ -40,6 +58,14 @@ button {
 #otherButton {
   border-radius: 0px 35px 5px 0px;
 }
+
+button:hover {
+  color: #e5e9f2;
+  background-color: #27a1e3;
+  border: solid 2px  #fafafa;
+  transition: backgrond-color, 0.4s;
+}
+
 
 
 .gallery {

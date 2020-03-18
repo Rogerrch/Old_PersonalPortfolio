@@ -2,14 +2,21 @@
     box-sizing: border-box;
 }
 
+.scalp {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 header {
     display: flex;
     justify-content: center;
     background-color: #101010;
     color: #285a9f;
-    
     font-family: "Libre Franklin";
+}
+
+h1 {
+ margin: 20px;
 }
 
 footer {
@@ -62,6 +69,10 @@ img {
     border-radius: 10px;
     font-family: "Libre Franklin";
     font-weight: bold;
+}
+
+.navEffects {
+    
 }
 
 a {

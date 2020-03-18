@@ -5,7 +5,7 @@ Style Guide notes
 
 Colors
 
-#21233c (white)
+#fafafa (white)
 #e5e9f2 (light cool grey)
 #7b8da5 (dark cool grey)
 #27a1e3 (light Blue) (only use on small effects)
