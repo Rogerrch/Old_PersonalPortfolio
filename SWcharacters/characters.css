@@ -8,8 +8,13 @@ header {
   justify-content: center;
   background-color: #101010;
   color: #285a9f;
-  
   font-family: "Libre Franklin";
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+body {
+  background-color: #101010;
 }
 
 footer {
@@ -21,41 +26,30 @@ footer {
   font-variant: small-caps;
 }
 
-body {
-  background-color: #101010;
-}
-
 
 a> img {
   height: 18rem;
   margin: 4px;
+  margin-bottom: 10px;
   border-radius: 5px 70px 20px 20px;
   border: solid 4px #285a9f;
 }
 
-#nav {
+
+.nav {
   display: flex;
   justify-content: center;
-}
-
-button:hover {
-  color: #e5e9f2;
-  background-color: #27a1e3;
-  border: solid 2px  #fafafa;
-  transition: background-color, 0.4s;
-  z-index: 6;
 }
 
 button {
   height: 3rem;
   font-size: larger;
-  background-color: #e5e9f2;
-  box-shadow: inset 0px 0px 10px #21233c;
+  background-color: #7b8da5;
+  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
   font-weight: 600;
-  padding-top: 5px;
-  margin-bottom: 1rem;
+  padding-top: 8px;
+  margin-bottom: 2rem;
   border: solid 2px #285a9f;
-  color: #285a9f;
 }
 
 #maleButton {
@@ -66,11 +60,6 @@ button {
   border-radius: 0px 35px 5px 0px;
 }
 
-Button:active {
-  color: #aa0000;
-  background-color: chocolate;
-  
-}
 
 .gallery {
   display: flex;
