@@ -22,7 +22,7 @@ footer {
 }
 
 body {
-  background-color: 101010;
+  background-color: #101010;
 }
 
 
@@ -38,11 +38,18 @@ a> img {
   justify-content: center;
 }
 
+button:hover {
+  color: #e5e9f2;
+  background-color: #27a1e3;
+  border: solid 2px  #fafafa;
+  transition: background-color, 0.4s;
+  z-index: 6;
+}
 
 button {
   height: 3rem;
   font-size: larger;
-  background-color: #0d0f1b;
+  background-color: #e5e9f2;
   box-shadow: inset 0px 0px 10px #21233c;
   font-weight: 600;
   padding-top: 5px;
@@ -59,14 +66,11 @@ button {
   border-radius: 0px 35px 5px 0px;
 }
 
-button:hover {
-  color: #e5e9f2;
-  background-color: #27a1e3;
-  border: solid 2px  #fafafa;
-  transition: backgrond-color, 0.4s;
+Button:active {
+  color: #aa0000;
+  background-color: chocolate;
+  
 }
-
-
 
 .gallery {
   display: flex;
