@@ -11,12 +11,13 @@ header {
     display: flex;
     justify-content: center;
     background-color: #101010;
-    color: #285a9f;
+    color: #27a1e3;
     font-family: "Libre Franklin";
 }
 
 h1 {
  margin: 20px;
+ filter: drop-shadow( .2mm .4mm .6mm #27a1e380);
 }
 
 footer {
@@ -29,7 +30,12 @@ footer {
 }
 
 body {
-    background-color: #101010;
+    background-image: linear-gradient(0deg, #0d0f1b 0%, #101010 75%); 
+}
+
+main {
+    min-width: 750px;
+    background-image: linear-gradient(0deg, #0d0f1b 0%, #101010 75%); 
 }
 
 
@@ -37,7 +43,8 @@ body {
 .image img {
     border-radius: 10px;
     border: solid 6px;
-    margin-top: 12rem;
+    
+    
 }
 .card {
     border-radius: 10px;
@@ -50,29 +57,26 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #101010;
+    background-image: linear-gradient(0deg, #0d0f1b 0%, #101010 75%); 
 }
 
 img {
-    border-radius: 10px;
+    border-radius: 5px 70px 20px 20px;
     margin-top: 12rem;
-    border: solid 4px #285a9f;
+    border: solid 4px #27a1e3;
     font-family: "Libre Franklin";
+    filter: drop-shadow( .2mm .4mm .6mm #27a1e370);
     
 }
 
 .nav {
-    display: flex;
-    align-self: flex-start;
-    border: solid 4px #285a9f;
+    border: solid 4px black;
     padding: 10px 30px 10px 30px;
-    background-color: #e5e9f2;
-    border-radius: 10px;
+    background-color: #7b8da5;
+    border-radius: 5px 70px 20px 20px;
     font-family: "Libre Franklin";
     font-weight: bold;
-}
-
-.navEffects {
-    
+    box-shadow: inset 0px 0px 10px #285a9f;
 }
 
 a {
@@ -82,10 +86,13 @@ a {
 
 li {
     list-style-type: none;
-    background-color: #e5e9f2; 
-    color: #285a9f;
-    font-variant: small-caps;
-    
+    color: #fafafa;
+    font-variant: small-caps; 
+    font: outline;
+    filter: drop-shadow(.6px .6px 4px #0d0f1b);
 }
+
+
+
 
 

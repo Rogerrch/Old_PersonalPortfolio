@@ -7,10 +7,14 @@ header {
   display: flex;
   justify-content: center;
   background-color: #101010;
-  color: #285a9f;
+  color: #27a1e3;
   font-family: "Libre Franklin";
   margin-top: 2rem;
   margin-bottom: 1rem;
+}
+
+h1 {
+  filter: drop-shadow( .2mm .4mm .6mm #27a1e370);
 }
 
 body {
@@ -33,6 +37,7 @@ a> img {
   margin-bottom: 10px;
   border-radius: 5px 70px 20px 20px;
   border: solid 4px #285a9f;
+  filter: drop-shadow( .6mm .6mm 0mm #27a1e3);
 }
 
 
@@ -41,25 +46,65 @@ a> img {
   justify-content: center;
 }
 
-button {
+Button {
   height: 3rem;
   font-size: larger;
-  background-color: #7b8da5;
-  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+  background-color: #e5e9f2;
+  box-shadow: inset 0px 0px 10px #285a9f;
   font-weight: 600;
-  padding-top: 8px;
   margin-bottom: 2rem;
-  border: solid 2px #285a9f;
+  color: #0d0f1b;
+  border: solid 3px #101010
 }
-
+/*button states*/
 #maleButton {
+  border: solid 2px #7b8da5;
   border-radius: 35px 0px 0px 5px;
 }
-
+#maleButton:hover {
+  background-color: #27a1e3;
+  box-shadow: inset 0px 0px 10px #ffffff;
+  border-color: #fafafa;
+  color: #fafafa;
+}
+#maleButton:active {
+  background-color: #27a1e3;
+  box-shadow: inset 0px 0px 10px #ffffff;
+  border-color: #fafafa;
+  color: #8ff2ff;
+}
+#femaleButton {
+  border: solid 2px #7b8da5;
+}
+#femaleButton:hover {
+  background-color: #27a1e3;
+  box-shadow: inset 0px 0px 10px #ffffff;
+  border-color: #fafafa;
+  color: #fafafa;
+}
+#femaleButton:active {
+  background-color: #27a1e3;
+  box-shadow: inset 0px 0px 10px #ffffff;
+  border-color: #fafafa;
+  color: #8ff2ff;
+}
 #otherButton {
+  border: solid 2px #7b8da5;
   border-radius: 0px 35px 5px 0px;
 }
-
+#otherButton:hover {
+  background-color: #27a1e3;
+  box-shadow: inset 0px 0px 10px #ffffff;
+  border-color: #fafafa;
+  color: #fafafa;
+}
+#otherButton:active {
+  background-color: #27a1e3;
+  box-shadow: inset 0px 0px 10px #ffffff;
+  border-color: #fafafa;
+  color: #8ff2ff;
+}
+/*button states*/
 
 .gallery {
   display: flex;

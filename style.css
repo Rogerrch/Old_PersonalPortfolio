@@ -29,6 +29,7 @@ body {
   background-color: #21233c;
   position: fixed;
   z-index: 10;
+  filter: drop-shadow( .2mm 1mm .0mm #27a1e3);
 }
 
 .nav-list {
@@ -75,9 +76,10 @@ h1 {
 
 h3 {
   font-size: 1.5rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   font-style: normal;
   color: #27a1e3;
+  filter: drop-shadow( .2mm .4mm .6mm #27a1e370);
   
 }
 
@@ -85,7 +87,7 @@ h2 {
   display: block;
   font-size: 2.5rem;
   padding: 4rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   font-style: normal;
   display: flex;
   justify-content: center;
@@ -93,9 +95,12 @@ h2 {
   color: #27a1e3;
   background-color: #101010;
   
+  
 }
-div {
-    background-color: #27a1e3; 
+.partition {
+    background-color: #21233c; 
+  border-top: solid 2px #27a1e3;
+  border-bottom: solid 2px #27a1e3;
     
 }
 
@@ -120,7 +125,7 @@ figcaption {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: #e5e9f2;
+  color: #0d0f1b;
   font: 1rem "Roboto", sans-serif;
   background-color: #7b8da5;
   position: relative;
@@ -165,10 +170,11 @@ footer {
   font: 1rem "Roboto", sans-serif;
   font-style: normal;
   height: 4rem;
-  background-color: #27a1e3;
-  color: #e5e9f2;
+  background-color: #21233c;
+  color: #7b8da5;
   text-align: center;
   display: flex;
+  border-top: solid 2px #27a1e3;
 }
 
 /* 1200px / 16px = 75em */
